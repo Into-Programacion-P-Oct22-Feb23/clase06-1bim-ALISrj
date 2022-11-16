@@ -20,14 +20,14 @@ public class Ejemplo04 {
         double radianes;
         double resultado;
         
-        resultado = 0;
+        resultado = 0; 
         System.out.println("Ingrese la opción trigonométrica.\n"
                 + "1 seno\n"
                 + "2 coseno\n"
                 + "3 tangente");
         opcion = entrada.nextInt();
         
-        System.out.println("Ingrese el valor en radianes");
+        System.out.println("Ingrese el valor en radianes: ");
         radianes = entrada.nextDouble();
         
         switch(opcion){

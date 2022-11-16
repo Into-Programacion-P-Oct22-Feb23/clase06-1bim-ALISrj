@@ -31,7 +31,7 @@ public class Ejemplo02 {
         Scanner entrada = new Scanner(System.in);
         entrada.useLocale(Locale.US);
 
-        System.out.println("Ingrese el número de día de la semana");
+        System.out.println("Ingrese el número de día de la semana: ");
         int numeroDia = entrada.nextInt();
 
         switch (numeroDia) {
